@@ -1,0 +1,70 @@
+body {
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   background-image: url(background\ .jpeg); /* Replace 'background_image.jpeg' with your actual image path */
+   background-repeat: no-repeat;
+   background-size: cover; /* Ensure the background image covers the entire body */
+}
+.main__container{
+   font-size: 50px;
+   text-align: center;
+   margin-top: -450px;
+}
+.container {
+   margin-left: -320px;
+   position: relative;
+   margin-top: 13rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-radius: 2px;
+   border: 2px solid black;
+   cursor: pointer;
+   width: 300px;
+   height: 500px;
+   background-color: white;
+   border-radius: 30px;
+}
+.item center{
+   justify-content: center;
+   align-items: center;
+}
+.row{
+margin:3px 0;
+}
+.button
+{
+padding:20px;
+text-align:center;
+margin:6px ;
+border:3px;
+border-radius:50%;
+font-size:20px;
+background-color: #8989d8;
+ 
+} 
+.button1{
+padding:20px;
+text-align:center;
+margin:6px ;
+border:3px;
+border-radius:50%;
+background-color:#8d37b4;
+font-size:20px;
+}
+.button:hover{
+background-color:#5757bd;
+}
+.input{
+   font-size: 12px;
+padding:15px 10px;
+border-radius:5px;
+font-size:20px;
+text-wrap: wrap;
+height: 30px;
+}
